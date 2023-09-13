@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("montserrat.woff2") format("woff2");
+  font-display: swap; /* This tells the browser to use a fallback font until Montserrat loads */
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+footer {
+	text-align: center;
+	opacity: 40%;
+}
+
+/* Zebra striping */
+/* Not pairs (odd)*/
+#table tr:nth-child(odd) {
+	background-color: #fff;
+}
+
+table img:hover {
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.brown-main-bg {
+  background-color: #322422;
+}
+
+.brown-lighter {
+  background-color: #6b4633;
+}
+
+.add-button {
+  background-color: #ad8c7b;
+  transition-duration: 0.3s;
+}
+
+.add-button:hover {
+	background-color: #ad8c7bb9;
+	transform: scale(1.01);
+}
+
+.clear-button {
+  transition-duration: 0.3s;
+}
+
+.clear-button:hover {
+	transform: scale(1.01);
+}
